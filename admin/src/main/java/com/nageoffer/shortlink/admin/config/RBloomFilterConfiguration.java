@@ -22,7 +22,7 @@ public class RBloomFilterConfiguration {
     public RBloomFilter<String> userRegisterCachePenetrationBloomFilter(RedissonClient redissonClient) {
         // 获取布隆过滤器
         RBloomFilter<String> cachePenetrationBloomFilter = redissonClient.getBloomFilter("userRegisterCachePenetrationBloomFilter");
-        cachePenetrationBloomFilter.tryInit(100000000, 0.001);
+        cachePenetrationBloomFilter.tryInit(100000000, 0.0001);
         return cachePenetrationBloomFilter;
     }
 }
