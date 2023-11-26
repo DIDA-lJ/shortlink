@@ -4,7 +4,7 @@ import com.nageoffer.shortlink.admin.common.convention.errorcode.IErrorCode;
 
 /**
  * @ClassName UserErrorCodeEnum
- * @Description
+ * @Description 用户异常码枚举
  * @Version 1.0.0
  * @Author LinQi
  * @Date 2023/11/17
