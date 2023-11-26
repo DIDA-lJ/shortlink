@@ -120,4 +120,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserDO> implements 
         stringRedisTemplate.expire("login_" + requestParam.getUsername(), 30L, TimeUnit.DAYS);
         return new UserLoginRespDTO(uuid);
     }
+
+    @Override
+    public Boolean checkLogin(String username, String token) {
+        return stringRedisTemplate.opsForHash().get("login_" + username, token) != null;
+    }
 }

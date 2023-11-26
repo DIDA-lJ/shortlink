@@ -10,8 +10,8 @@ import com.nageoffer.shortlink.admin.dto.resp.UserActualRespDTO;
 import com.nageoffer.shortlink.admin.dto.resp.UserLoginRespDTO;
 import com.nageoffer.shortlink.admin.dto.resp.UserRespDTO;
 import com.nageoffer.shortlink.admin.service.UserService;
+import jakarta.annotation.Resource;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping
 public class UserController {
 
-    @Autowired
+    @Resource
     private UserService userService;
 
     /**
@@ -80,5 +80,13 @@ public class UserController {
     @PostMapping("/api/short-link/admin/v1/user/login")
     public Result<UserLoginRespDTO> login(@RequestBody UserLoginReqDTO requestParam) {
         return Results.success(userService.login(requestParam));
+    }
+
+    /**
+     * 检查用户是否登录
+     */
+    @GetMapping("/api/short-link/admin/v1/user/check-login")
+    public Result<Boolean> checkLogin(@RequestParam("username") String username, @RequestParam("token") String token) {
+        return Results.success(userService.checkLogin(username, token));
     }
 }
