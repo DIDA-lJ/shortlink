@@ -101,11 +101,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserDO> implements 
                 .eq(UserDO::getDelFlag, 0);
         UserDO userDO = baseMapper.selectOne(queryWrapper);
         if (userDO == null) {
-            throw new ClientException("用户不存在");
+            throw new ClientException("用户不存在或者密码错误！");
         }
         Boolean hasLogin = stringRedisTemplate.hasKey("login_" + requestParam.getUsername());
         if (hasLogin != null && hasLogin) {
-            throw new ClientException("用户已登录");
+            throw new ClientException("用户已登录！");
         }
 
         /*
