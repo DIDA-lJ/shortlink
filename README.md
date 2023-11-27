@@ -35,7 +35,7 @@ URL。短链接通常只包含几个字符，而原始的长 URL 可能会非常
 
 ![](https://images-machen.oss-cn-beijing.aliyuncs.com/image-20231026132606180.png)
 
-## 项目亮点
+## ✨项目亮点
 短链接项目采用 SaaS 方式开发。"SaaS"代表“软件即服务”（Software as a Service），与传统的软件模型不同，SaaS
 不需要用户在本地安装和维护软件，而是通过互联网直接访问在线应用程序。
 
