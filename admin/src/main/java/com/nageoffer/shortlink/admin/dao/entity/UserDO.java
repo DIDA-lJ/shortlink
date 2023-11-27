@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  * @ClassName UserDO
- * @Description
+ * @Description 用户持久层实体
  * @Version 1.0.0
  * @Author LinQi
  * @Date 2023/11/06
