@@ -29,7 +29,7 @@ URL。短链接通常只包含几个字符，而原始的长 URL 可能会非常
 
 ![](https://images-machen.oss-cn-beijing.aliyuncs.com/IMG_9858-new.jpg)
 
-## 技术架构
+## ⚙️技术架构
 
 在系统设计中，采用最新 JDK17 + SpringBoot3&SpringCloud 微服务架构，构建高并发、大数据量下仍然能提供高效可靠的短链接生成服务。
 
