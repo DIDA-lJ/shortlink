@@ -1,5 +1,5 @@
 # shortlink 短链接系统（紧急开发 ing）
-## 开发日志
+## 📚开发日志
 <a href="https://www.yuque.com/g/zeovo-10k9s/qpp9fm/qy78m3d2g29x3ym8/collaborator/join?token=D3ukY6ANRl1smbJM&source=doc_collaborator# 《短链接后台管理系统开发日志》">开发日志</a>
 ## 简介
 
