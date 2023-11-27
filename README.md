@@ -1,7 +1,7 @@
-# shortlink 短链接系统（紧急开发 ing）
-## 开发日志
-<a href="https://www.yuque.com/g/zeovo-10k9s/qpp9fm/qy78m3d2g29x3ym8/collaborator/join?token=D3ukY6ANRl1smbJM&source=doc_collaborator# 《短链接后台管理系统开发日志》">开发日志</a>
-## 简介
+# 🖇️shortlink 短链接系统（紧急开发 ing）
+## 📚开发日志
+<a href="https://www.yuque.com/zeovo-10k9s/qpp9fm/qy78m3d2g29x3ym8?singleDoc# 《短链接开发日志》"> 🖇️短链接系统项目开发日志</a>
+## 🔖简介
 
 ![](https://images-machen.oss-cn-beijing.aliyuncs.com/image-20231115133642504.png)
 
@@ -29,13 +29,13 @@ URL。短链接通常只包含几个字符，而原始的长 URL 可能会非常
 
 ![](https://images-machen.oss-cn-beijing.aliyuncs.com/IMG_9858-new.jpg)
 
-## 技术架构
+## ⚙️技术架构
 
 在系统设计中，采用最新 JDK17 + SpringBoot3&SpringCloud 微服务架构，构建高并发、大数据量下仍然能提供高效可靠的短链接生成服务。
 
 ![](https://images-machen.oss-cn-beijing.aliyuncs.com/image-20231026132606180.png)
 
-## 项目亮点
+## ✨项目亮点
 短链接项目采用 SaaS 方式开发。"SaaS"代表“软件即服务”（Software as a Service），与传统的软件模型不同，SaaS
 不需要用户在本地安装和维护软件，而是通过互联网直接访问在线应用程序。
 
@@ -47,4 +47,4 @@ URL。短链接通常只包含几个字符，而原始的长 URL 可能会非常
 4. **数据安全性**：需要保证用户数据的安全性和隐私，防止未经授权的访问和数据泄露。
 5. **扩展性&可伸缩性**：需要具备良好的扩展性，以应对用户数量和业务规模的增长。
 
-项目实现过程中会充分考虑以上问题，最终实现高可用、可扩展、支持海并发以及存储的 SaaS 短链接系统。
+项目实现过程中会充分考虑以上问题，最终实现一个高可用、可扩展、支持海量并发以及存储的 SaaS 短链接系统。
