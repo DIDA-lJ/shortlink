@@ -1,7 +1,7 @@
-package com.nageoffer.shorklink.project.common.convention.errorcode;
+package com.nageoffer.shortlink.project.common.convention.errorcode;
 
 /**
- * @ClassName IErrorCode
+ * @InterfaceName IErrorCode
  * @Description 平台错误码
  * @Version 1.0.0
  * @Author LinQi

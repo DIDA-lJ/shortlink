@@ -1,7 +1,7 @@
-package com.nageoffer.shorklink.project.common.convention.exception;
+package com.nageoffer.shortlink.project.common.convention.exception;
 
-import com.nageoffer.shorklink.project.common.convention.errorcode.BaseErrorCode;
-import com.nageoffer.shorklink.project.common.convention.errorcode.IErrorCode;
+import com.nageoffer.shortlink.project.common.convention.errorcode.BaseErrorCode;
+import com.nageoffer.shortlink.project.common.convention.errorcode.IErrorCode;
 
 import java.util.Optional;
 
@@ -9,7 +9,7 @@ import java.util.Optional;
  * @ClassName ServiceException
  * @Description 服务端异常
  * @Version 1.0.0
- * @Author LinQi
+ * @author LinQi
  * @Date 2023/12/06
  */
 public class ServiceException extends AbstractException {
