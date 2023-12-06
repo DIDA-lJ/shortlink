@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 /**
  * @ClassName Result
- * @Description 全局返回对象
+ * @Description
  * @Version 1.0.0
  * @Author LinQi
  * @Date 2023/12/06

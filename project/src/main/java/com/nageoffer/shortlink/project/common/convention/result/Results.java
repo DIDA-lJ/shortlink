@@ -1,12 +1,12 @@
-package com.nageoffer.shorklink.project.common.convention.result;
+package com.nageoffer.shortlink.project.common.convention.result;
 
-import com.nageoffer.shorklink.project.common.convention.errorcode.BaseErrorCode;
-import com.nageoffer.shorklink.project.common.convention.exception.AbstractException;
+import com.nageoffer.shortlink.project.common.convention.errorcode.BaseErrorCode;
+import com.nageoffer.shortlink.project.common.convention.exception.AbstractException;
 
 import java.util.Optional;
 
 /**
- * @ClassName Resilts
+ * @ClassName Results
  * @Description 全局返回对象构造器
  * @Version 1.0.0
  * @Author LinQi
