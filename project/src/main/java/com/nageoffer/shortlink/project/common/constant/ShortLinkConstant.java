@@ -1,4 +1,4 @@
-package com.nageoffer.shorklink.project.common.constant;
+package com.nageoffer.shortlink.project.common.constant;
 
 /**
  * @ClassName ShortLinkConstant

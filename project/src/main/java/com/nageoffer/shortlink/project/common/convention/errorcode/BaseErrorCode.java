@@ -1,8 +1,8 @@
-package com.nageoffer.shorklink.project.common.convention.errorcode;
+package com.nageoffer.shortlink.project.common.convention.errorcode;
 
 /**
- * @ClassName BaseErrorCode
- * @Description 基础错误码定义
+ * @ClassName IErrorCode
+ * @Description  基础错误码定义
  * @Version 1.0.0
  * @Author LinQi
  * @Date 2023/12/06

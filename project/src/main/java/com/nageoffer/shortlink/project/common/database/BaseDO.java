@@ -1,4 +1,4 @@
-package com.nageoffer.shorklink.project.common.database;
+package com.nageoffer.shortlink.project.common.database;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
