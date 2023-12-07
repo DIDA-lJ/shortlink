@@ -15,12 +15,12 @@ rules:
           standard:
             shardingColumn: username
             shardingAlgorithmName: user_table_hash_mod
-      t_group:
-        actualDataNodes: ds_0.t_group_${0..15}
-        tableStrategy:
-          standard:
-            shardingColumn: username
-            shardingAlgorithmName: group_table_hash_mod
+#      t_group:
+#        actualDataNodes: ds_0.t_group_${0..15}
+#        tableStrategy:
+#          standard:
+#            shardingColumn: username
+#            shardingAlgorithmName: group_table_hash_mod
     shardingAlgorithms:
       user_table_hash_mod:
         type: HASH_MOD
