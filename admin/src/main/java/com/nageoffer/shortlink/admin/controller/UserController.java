@@ -55,8 +55,6 @@ public class UserController {
 
     /**
      * 注册用户
-     * @param requestParam 用户注册请求参数
-     * @return 用户注册结果
      */
     @PostMapping("/api/short-link/admin/v1/user")
     public Result<Void> register(@RequestBody UserRegisterReqDTO requestParam) {
