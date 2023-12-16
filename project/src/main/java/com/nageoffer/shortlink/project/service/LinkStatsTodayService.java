@@ -6,5 +6,5 @@ package com.nageoffer.shortlink.project.service;
  * @description 短链接今日统计接口层
  */
 
-public class LinkStatsTodayService {
+public interface LinkStatsTodayService {
 }
