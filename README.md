@@ -1,6 +1,7 @@
 # 🖇️shortlink 短链接系统（紧急开发 ing）
 ## 📚开发日志
 <a href="https://www.yuque.com/zeovo-10k9s/qpp9fm/qy78m3d2g29x3ym8?singleDoc# 《短链接开发日志》"> 🖇️短链接系统项目开发日志</a>
+
 ## 🔖简介
 
 ![](https://images-machen.oss-cn-beijing.aliyuncs.com/image-20231115133642504.png)
